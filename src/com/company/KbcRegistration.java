@@ -14,6 +14,7 @@ public class KbcRegistration {
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
+        /*Payload create for parameters*/
         String payload = """
                 data ={
                      "fullName": "Binod Nakhan",
