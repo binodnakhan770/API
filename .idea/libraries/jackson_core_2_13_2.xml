@@ -1,14 +1,19 @@
 <component name="libraryTable">
   <library name="jackson-core-2.13.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../jar_files/jackson-core-2.13.2.jar!/" />
-      <root url="file://$PROJECT_DIR$/../jar_files" />
-      <root url="jar://$PROJECT_DIR$/../jackson-databind-2.13.2.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../jackson-core-2.13.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../jackson-annotations-2.13.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/jackson-core-2.11.0.wso2v1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jackson-annotations-2.13.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jackson-core-2.13.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jackson-databind-2.13.2.2.jar!/" />
+      <root url="file://$USER_HOME$/Downloads" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/json-20210307.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/../jar_files" recursive="false" />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/JavaOtpGenerateProgram/src" />
+    </SOURCES>
+    <excluded>
+      <root url="jar://$USER_HOME$/Downloads/jar_files (1)/jackson-databind-2.13.2.2.jar!/" />
+    </excluded>
   </library>
 </component>

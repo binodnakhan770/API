@@ -52,7 +52,6 @@ public class KbcRegistration {
         HttpRequest request = HttpRequest.newBuilder()
                 .POST(HttpRequest.BodyPublishers.ofString(payload))
                 .header("accept","application/json")
-                .header("9860876238","123456")
                 .uri(URI.create("https://test.cellpay.com.np/rest/access/login"))
                 .build();
 
