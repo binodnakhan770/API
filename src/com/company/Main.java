@@ -26,14 +26,9 @@ public class Main {
         HttpResponse response = null;
         try {
             response = client.send(request, HttpResponse.BodyHandlers.ofString());
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
-
-
-
         System.out.println(response.body());
 
     }
